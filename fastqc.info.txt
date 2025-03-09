@@ -5,5 +5,5 @@ ARGS
     <main>
         fastqc ::*APP-ARGS*::
 RUN
-    <container:taf-fastqc:ghcr.io/taffish-org/fastqc:0.11.9>
+    <container:taf-fastqc-v0.11.9:ghcr.io/taffish-org/fastqc:0.11.9>
         ::*MAIN*::
