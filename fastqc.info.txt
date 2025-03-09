@@ -1,0 +1,9 @@
+# <fastqc:v0.11.9 | KaiyuanHan | 2025-03-09>
+ARGS
+    <else>
+        fastqc --help
+    <main>
+        fastqc ::*APP-ARGS*::
+RUN
+    <container:taf-fastqc:ghcr.io/taffish-org/fastqc:0.11.9>
+        ::*MAIN*::

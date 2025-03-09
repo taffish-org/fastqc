@@ -1,0 +1,7 @@
+(:name           "fastqc")
+(:repo           "taffish-org/fastqc")
+(:author         "KaiyuanHan")
+(:version        "0.11.9")
+(:intro          "A quality control analysis tool for high throughput sequencing data.")
+(:dependencies)
+(:functions      "fastqc")
